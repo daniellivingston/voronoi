@@ -19,7 +19,11 @@ jobs:
           # extended: true
 
       - name: Build Docs 🔧
-        run: make docs
+        run: |
+          pwd
+          cd docs
+          make docs
+          cd ..
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
