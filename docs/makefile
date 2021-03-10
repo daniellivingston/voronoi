@@ -4,7 +4,7 @@
 .PHONY: docs dev
 
 docs : 
-	hugo -D -t kube -v
+	hugo --minify --buildDrafts --theme kube --verbose
 
 dev : 
-	hugo server -w
+	hugo server --watch --verbose
