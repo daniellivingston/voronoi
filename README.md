@@ -1,5 +1,7 @@
 ![](docs/themes/kube/static/img/kube/voronoi_logo-black.png)
-[![Build and Deploy Documentation](https://github.com/daniellivingston/voronoi/actions/workflows/build_docs.yml/badge.svg)](https://github.com/daniellivingston/voronoi/actions/workflows/build_docs.yml) [![CI - build and run tests](https://github.com/daniellivingston/voronoi/actions/workflows/linux_build_tests.yml/badge.svg)](https://github.com/daniellivingston/voronoi/actions/workflows/linux_build_tests.yml)
+
+![build](https://github.com/daniellivingston/voronoi/actions/workflows/linux_build_tests.yml/badge.svg)](https://github.com/daniellivingston/voronoi/actions/workflows/linux_build_tests.yml)
+[![docs](https://github.com/daniellivingston/voronoi/actions/workflows/build_docs.yml/badge.svg)](https://github.com/daniellivingston/voronoi/actions/workflows/build_docs.yml) [
 
 VORONOI is a parallel, scalable control volume tessellation generator, built for use in subsurface flow and transport solvers.
 
